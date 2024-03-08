@@ -21,8 +21,9 @@ This project implements the classic snake game where the player controls a snake
 
 ## How to Run
 
-compile the code and run the .exe file generated.
-##SOURCE CODE
+compile the code and run .exe file generated after compilation.
+
+## SOURCE CODE
 ```#include<iostream>
 #include<conio.h>
 #include<windows.h>
