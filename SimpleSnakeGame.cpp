@@ -12,6 +12,11 @@ const int height= 20;
 //Basic variables needed.
 int x,y,fruitX,fruitY,score;
 
+//snake tail
+//we are going to use array for tail
+int tailX[100],tailY[100];
+int ntail;//length of tail
+
 //to track direction of the snake.
 enum eDirection{ STOP=0, LEFT, RIGHT, UP, DOWN};
 eDirection dir; 
